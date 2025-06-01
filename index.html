@@ -29,14 +29,19 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="favicon.png">
-    <link rel='mask-icon' href="favicon.png" >
-    <link rel="icon" sizes="192x192" href="favicon.png"> 
+    <link rel="mask-icon" href="favicon.png">
+    <link rel="icon" sizes="192x192" href="favicon.png">
     <link rel="icon" sizes="128x128" href="favicon.png">
     <link rel="apple-touch-icon" sizes="128x128" href="favicon.png">
-    
-
 
 </head>
+
+<style>
+    .highlight-conference {
+        color: #f26b38; /* Change this hex code to match your site's accent color */
+        font-weight: 600;
+    }
+</style>
 
 <body id="top">
 
@@ -57,23 +62,21 @@
     <header class="s-header">
 
         <div class="s-header__content">
-    
             <nav class="s-header__nav-wrap">
                 <ul class="s-header__nav">
                     <li><a class="smoothscroll" href="#hero" title="Intro">Home</a></li>
                     <li><a class="smoothscroll" href="#about" title="About">About</a></li>
-                    <li><a class="smoothscroll" href="#services" title="Services">Experience </a></li>
+                    <li><a class="smoothscroll" href="#services" title="Services">Experience</a></li>
                     <li><a class="smoothscroll" href="#portfolio" title="Works">Projects</a></li>
-                    <li><a class="smoothscroll" href="#GCSP" title="GCSP">GCSP</a></li>
+                    <li><a class="smoothscroll" href="#Publications" title="Publications">Publications</a></li>
                 </ul>
             </nav> <!-- end s-header__nav-wrap -->
 
-            <a href="#contact" class="btn btn--primary btn--small smoothscroll" >
+            <a href="#contact" class="btn btn--primary btn--small smoothscroll">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"></svg>
                 <i class="fas fa-paper-plane"></i>
                 Get In Touch
             </a>
-
         </div> <!-- end header-content -->
 
         <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
@@ -94,27 +97,30 @@
 
                 <h1>Deepit Arora</h1>
                 <div class="s-hero__content-about">
-
                     <p>
-                    Robotics Engineer studying <br>
-                    at Arizona  State University.
+                        Robotics Engineer studying <br>
+                        at Arizona State University.
                     </p>
 
                     <footer>
-                         <div class="s-hero__content-social">
-                            <a href='https://www.linkedin.com/in/deepit-arora/' target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-                            <a href="https://asu.joinhandshake.com/users/24560414" target="_blank"><i class="fas fa-handshake"  aria-hidden="true"></i></a>
-                            <a href="mailto:darora12@asu.edu" target="_blank"><i class="far fa-envelope"  aria-hidden="true"></i></a>
+                        <div class="s-hero__content-social">
+                            <a href="https://www.linkedin.com/in/deepit-arora/" target="_blank">
+                                <i class="fab fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://asu.joinhandshake.com/users/24560414" target="_blank">
+                                <i class="fas fa-handshake" aria-hidden="true"></i>
+                            </a>
+                            <a href="mailto:darora12@asu.edu" target="_blank">
+                                <i class="far fa-envelope" aria-hidden="true"></i>
+                            </a>
                         </div>
                     </footer>
                 </div>
             </div>
         </div>
 
-       
-
         <div class="s-hero__scroll">
-            <a href="#about" class="s-hero__scroll-link smoothscroll">
+            <a href="#about" class="s-hero__scroll-link smoothscroll" data-aos="fade-up">
                 Scroll Down
             </a>
         </div>
@@ -130,170 +136,104 @@
 
         <div class="row">
             <div class="column large-12">
-
                 <div class="section-title" data-num="01" data-aos="fade-up">
                     <h3 class="h6">About me</h3>
                 </div>
-
             </div>
 
-            <div class="column large-6 w-900-stack s-about__intro-text">
-                <h1 class="display-1" data-aos="fade-up">
-                    I am a Robotics and Autonomous Systems engineer with a Master’s degree from ASU, 
-                    where I also completed my Bachelor’s in Robotics Engineering with honors.
+            <div class="column large-6 w-900-stack s-about__intro-text" data-aos="fade-up">
+                <h1 class="display-1">
+                    <strong>Robotics engineer</strong> with <strong>NAE recognition</strong>, <strong>published research</strong>, and <strong>cross-domain expertise</strong> in intelligent systems.
                 </h1>
-            
+
                 <p class="lead" data-aos="fade-up">
-                    Originally from India, I specialize in developing intelligent robotic systems that blend autonomy, precision, 
-                    and bio-inspired design. My interests lie in medical robotics, soft robotics, and autonomous vehicles. <br>
-                    I bring hands-on experience from ThorDrive AI and ClearFlame Technologies, and I co-developed a 
-                    patent-pending magnetic thrombectomy device in collaboration with Mayo Clinic. <br>
-                    I’m currently exploring full-time opportunities to contribute to cutting-edge robotics innovation. <br>
-                    Scroll down to explore my work and experience!
+                    I hold a <strong>Master’s and Bachelor’s in Robotics</strong> from <strong>ASU (with Magna Cum Laude)</strong>,
+                    and specialize in <strong>autonomy</strong>, <strong>precision systems</strong>, and <strong>bio-inspired design</strong>.<br>
+                    My work spans <strong>medical robotics</strong>, <strong>soft robotics</strong>, and <strong>autonomous vehicles</strong>. I’ve contributed at <strong>ThorDrive AI</strong> (<em>Autonomous Vehicles</em>) and <strong>ClearFlame Technologies</strong> (<em>Ethanol run trucks</em>),
+                    and co-invented a <strong>patent-pending magnetic thrombectomy device</strong> and <strong>robotic neurosurgery and endoscopy</strong> with <strong>Mayo Clinic</strong> and <strong>Banner</strong>.<br>
+                    Currently seeking <strong>full-time roles</strong> to drive <strong>innovation</strong> across robotics domains.<br>
+                    Scroll down to explore my work and experience.
                 </p>
             </div>
-            
 
-
-            <div class="column large-6 w-900-stack s-about__photo-block">
-                <div class="s-about__photo" data-aos="fade-up"></div>
+            <div class="column large-6 w-900-stack s-about__photo-block" data-aos="fade-up">
+                <div class="s-about__photo"></div>
             </div>
         </div>
-        
-        
+
         <div class="row h-add-half-bottom" data-aos="fade-up">
-            <div class="row h-add-half-bottom" data-aos="fade-up">
-                <div class="column large-6 tab-12" data-aos="fade-up">            
-                    <h6 data-aos="fade-up">Programming Languages & Tools</h6>
-                    <ul class="stats-tabs" data-aos="fade-up">
-                        <li>Python 3</li>
-                        <li>C/C++</li>
-                        <li>MATLAB / Simulink</li>
-                        <li>HTML</li>
-                        <li>ROS</li>
-                    </ul>
-            
-                    <h6 data-aos="fade-up">Robotics & AI</h6>
-                    <ul class="stats-tabs" data-aos="fade-up">
-                        <li>Reinforcement Learning</li>
-                        <li>Computer Vision</li>
-                        <li>SLAM</li>
-                        <li>Multi-Robot Systems</li>
-                        <li>Soft Robotics</li>
-                    </ul>
-            
-                    <h6 data-aos="fade-up">Embedded Systems & Controllers</h6>
-                    <ul class="stats-tabs" data-aos="fade-up">
-                        <li>Arduino</li>
-                        <li>Raspberry Pi</li>
-                        <li>Infineon PSoC</li>
-                        <li>MicroChip PIC</li>
-                        <li>Beckhoff CX</li>
-                        <li>CANbus</li>
-                    </ul>
-            
-                    <h6 data-aos="fade-up">Design & Modeling Tools</h6>
-                    <ul class="stats-tabs" data-aos="fade-up">
-                        <li>SOLIDWORKS</li>
-                        <li>Cadence</li>
-                        <li>KiCAD</li>
-                        <li>Universal Robots (UR)</li>
-                    </ul>
-            
-                    <h6 data-aos="fade-up">Prototyping & Fabrication</h6>
-                    <ul class="stats-tabs" data-aos="fade-up">
-                        <li>Multi-material 3D Printing</li>
-                        <li>Laser Cutting</li>
-                        <li>PCB Design</li>
-                    </ul>
+            <div class="column large-6 tab-12" data-aos="fade-up">
+                <h4 data-aos="fade-up">Technical Skills</h4>
+                <ul class="stats-tabs" data-aos="fade-up">
+                    <li>Languages/Tools: Python, C/C++, MATLAB, Simulink, HTML, ROS/ROS2</li>
+                    <li>Robotics &amp; AI: RL, SLAM, Computer Vision, Multi-Robot Systems, Soft Robotics</li>
+                    <li>Embedded Systems: Arduino, Raspberry Pi, PSoC, PIC, Beckhoff CX, CANbus</li>
+                    <li>Modeling/Design: SOLIDWORKS, UR, Cadence, KiCAD</li>
+                    <li>Fabrication: 3D Printing, Laser Cutting, PCB Design</li>
+                </ul>
 
+                <h4 data-aos="fade-up">Hackathons – Design Challenges</h4>
+                <p data-aos="fade-up">
+                    Participated in competitive, fast-paced design sprints focused on real-world challenges, winning over $22,000 in awards:<br>
+                    HabitHacks (3rd): Robotic desk assistant<br>
+                    Devils Invent – Honeywell (2nd): Voice-assistant co-pilot<br>
+                    Devils Invent – LANL (3rd): Gesture-controlled robotic arm<br>
+                    Devils Invent – Honeywell (3rd): Multi-robot part delivery system<br>
+                    Devils Invent – Honeywell (2nd): QA &amp; inventory automation<br>
+                    HacksForHumanity (2nd): LLM-powered community resolution app
+                </p>
 
-                    <h3 data-aos="fade-up">National Academy of Engineering – Grand Challenges Scholar</h3>
-                    <p data-aos="fade-up">
-                        As a graduate of Arizona State University’s chapter of the National Academy of Engineering's 
-                        Grand Challenges Scholars Program (GCSP), I completed a self-directed pathway that emphasized 
-                        innovation, interdisciplinary research, and social impact. My journey integrated multicultural experiences, 
-                        service learning, entrepreneurial initiatives, and hands-on research, aligning with the core competencies of 
-                        this prestigious global program.
-                    </p>
-                    
-            
-                <h3 data-aos="fade-up">Engineering Projects In Community Service (EPICS)</h3>
-                    <p data-aos="fade-up">
-                    As a part of EPICS's ASU chapter, I am leading the design of Devils Prosthetics' electrical 
-                    and mechanical subsytems as the design-lead. Devils Prosthetics is focused on producing a 3D-printed 
-                    myoelectric prosthetic for transradial amputations. I designed and optimized the electrical 
-                    systems of the prosthetic consisting of myoelectric sensors and servos. Additionally, I assisted in 
-                    writing and presenting grant applications winning the team $5000 in EPICS Elite Pitch Funding
-
-                     </p>
-                <h3 data-aos="fade-up">Engineers Without Borders (EWB)</h3>
-                    <p data-aos="fade-up">
-                        As a part of EWB's ASU chapter, I worked with a team of highly motivated students from EPICS 
-                        and EWB to develop a Plastic Recycling System in Debark, Ethiopia. Previously, I had worked on 
-                        and implemented a Rainwater Enhancement System in Naki, Kenya. You can check out my projects to 
-                        know more about them.
-                    </p>
-
-                
-
-
+                <h4 data-aos="fade-up">Engineers Without Borders (EWB)</h4>
+                <p data-aos="fade-up">
+                    As a part of EWB-ASU, I worked on global humanitarian engineering projects: a plastic recycling system in Debark, Ethiopia, and a rainwater harvesting system in Naki, Kenya. Learn more under “Projects.”
+                </p>
             </div>
 
             <div class="column large-6 tab-12" data-aos="fade-up">
-
-                <h3 data-aos="fade-up">Awards</h3>
+                <h4 data-aos="fade-up">Awards</h4>
                 <dl class="dictionary-style" data-aos="fade-up">
-                    <dt><strong>Promising Student Award </strong></dt>
+                    <dt><strong>NAE Grand Challenges Scholar</strong></dt>
                     <p>
-                        <small>April 2021</small>
-                        <br>
-                        This award is presented to a Fulton freshman 
-                        on the Polytechnic campus who has demonstrated 
-                        overall academic excellence and outstanding involvement 
-                        on the campus and community
+                        Completed a self-directed pathway integrating innovation, research, service, and entrepreneurship. Served as student leader of ASU’s GCSP chapter for two years.<br>
+                        <a href="https://asu.digication.com/deepit-aroras-gcsp-portfolio/about_me" title="Check out my GCSP">
+                            Check out my GCSP portfolio
+                        </a>
                     </p>
-                    <dt><strong>Dean's List </strong></dt>
+
+                    <dt><strong>Impact and Innovation Award</strong></dt>
                     <p>
-                        <small>May 2023</small>
-                        <br>
-                        Made to the Fulton Schools of Engineering Dean's 
-                        List during every semester (6) of college I have completed 
-                        
+                        <small>April 2023</small><br>
+                        Awarded for the design of “Devils Prosthetic,” a 3D-printable myoelectric arm for children. Project earned $15,000 in grant funding via EPICS@ASU.
                     </p>
-                    <dt><strong>New American University Scholar Awards </strong></dt>
+
+                    <dt><strong>Promising Student Award</strong></dt>
                     <p>
-                        <small>$14,000 per year (for 4 years)</small>
-                        <br>
-                        New American University Scholar awards are offered 
-                        to outstanding incoming undergraduate students 
-                        as they pursue academic excellence at ASU.
+                        <small>April 2021</small><br>
+                        Recognized for academic excellence and active campus/community involvement as a freshman.
+                    </p>
+
+                    <dt><strong>Dean's List</strong></dt>
+                    <p>
+                        Achieved Dean’s List every semester during undergraduate and graduate study in the Fulton Schools of Engineering.
                     </p>
                 </dl>
-                <h3 data-aos="fade-up">Courses</h3>
-                <ul class="stats-tabs">
-                    <li><a> EGR 550 <em> Mechatronic Systems<br>  </em></a></li>            
-                    <li><a> EGR 456 <em> Robotic Systems II<br>  </em></a></li>            
-                    <li><a> FSE 301 <em> Entrepreneur & Value <br> Creation </em></a></li>
-                    <li><a> PHY 321 <em> Vector Mechanics <br> and Vibration </em></a></li>
-                    <li><a> EGR 314 <em> Embedded Systems <br> Design Project II</em></a></li>
-                    <li><a> EGR 334 <em> Analog-Digital <br> Interface  </em></a></li>
-                    <li><a> HSE 325 <em> Human-Computer </br> Interaction </em></a></li>
-                    <li><a> EGR 240 <em> CADD and <br> Solid Modeling </em></a></li>   
-                    <br><br>
-                    <li><em> MATLAB for Data <br> Processing & Visualization</em></li>
-                    <li><em> Control Design <br>with Simulink </em></li>
-                    <li><em> Machine Learning <br>with MATLAB </em></li>
-                    <li><em> Deep Learning <br>with MATLAB</em></li>
-                    <li><em> Reinforcement Learning<br>with MATLAB</em></li>
-                    <li><em>  Image Processing with<br> MATLAB</em></li>
-                    <li><a><em></em></a></li>
-                </ul>
-                <p>
-                    <a class="btn h-full-width" href="https://drive.google.com/drive/folders/1mRwLZZHXLNRz8U1AXXirYURyXgTxKPQO?usp=sharing" target="_blank">My Resume</a>
-                </p>
-               
 
+                <h4 data-aos="fade-up">Matlab Certifications</h4>
+                <ul class="stats-tabs" data-aos="fade-up">
+                    <li><em>MATLAB for Data<br>Processing &amp; Visualization</em></li>
+                    <li><em>Control Design<br>with Simulink</em></li>
+                    <li><em>Machine Learning<br>with MATLAB</em></li>
+                    <li><em>Deep Learning<br>with MATLAB</em></li>
+                    <li><em>Reinforcement Learning<br>with MATLAB</em></li>
+                    <li><em>Image Processing with<br>MATLAB</em></li>
+                </ul>
+
+                <p data-aos="fade-up">
+                    <a class="btn h-full-width" href="https://drive.google.com/drive/folders/1mRwLZZHXLNRz8U1AXXirYURyXgTxKPQO?usp=sharing" target="_blank">
+                        My Resume
+                    </a>
+                </p>
+            </div>
         </div>
 
     </section> <!-- end s-about -->
@@ -309,733 +249,482 @@
                     <h3 class="h6">My Experiences</h3>
                 </div>
             </div>
-            <div class="column large-6 w-900-stack">
-                <h1 class="display-1" data-aos="fade-up">
-                    My Current Postions 
+            <div class="column large-6 w-900-stack" data-aos="fade-up">
+                <h1 class="display-1">
+                    My Current Positions
                 </h1>
             </div>
-            <div class="column large-6 w-900-stack">
-                <p class="lead" data-aos="fade-up">
-                    Robotics student with a demonstrated history of working with 
-                    prosthetics and soft robotics. Skilled in Engineering, Automation, 
-                    Leadership, Robotics, and Science. 
+            <div class="column large-6 w-900-stack" data-aos="fade-up">
+                <p class="lead">
+                    Robotics student with a demonstrated history of working in fast-paced,
+                    multidisciplinary team environments. Skilled in engineering, automation,
+                    robotics, scientific research, and leadership.
                 </p>
             </div>
         </div>
 
         <div class="row s-portfolio__list block-large-1-2 block-tab-full collapse">
-            <div class="column large-6 w-900-stack s-about__intro-text">
-                <h3 class="item-title"  data-aos="fade-up"> Engineering Intern @ThorDrive AI</h3>
+            <div class="column large-6 w-900-stack s-about__intro-text" data-aos="fade-up">
+                <h3 class="item-title">Graduate Researcher @ Bio-Inspired Robotics Technology &amp; Healthcare Lab</h3>
+                <p>August 2023 – Present</p>
                 <p>
-                    May 2022 - April 2023 
-                <p  data-aos="fade-up">
-                    As an intern in the Mechatronics team of ThorDrive and I worked on 
-                    their autonomous GSE program at CVG airport. I designed custom 
-                    J1939 layer to transmit sensor data between MCU, VCU over vehicle CANBUS 
-                    with 60+ messages. Additionally upgraded & enhanced existing vehicle design 
-                    by conducting market research on improved sensors and actuators. I also programmed 
-                    MATLAB scripts to analyze and visualize data from sensors including IMU & GNSS and 
-                    vehicle CANBUS with 4.5 million lines of data. Furthure, I performed Fourier transform 
-                    analysis on vibration data from vehicle to help develop vibration isolation system. 
-                    Also, I produced technical documentation and reports on the test conducted on 
-                    sensor implementation.
+                    As a Graduate Researcher at the BIRTH (Bio-Inspired Robotics, Technology &amp; Healthcare) Lab at Arizona State University, I worked on translational medical robotics projects in collaboration with clinical partners. I co-developed a patent-pending magnetic thrombectomy device aimed at non-invasive stroke intervention, and contributed to the design of a robotic endoscopy and neurosurgery platform for minimally invasive neurosurgery. In addition to these flagship projects, I built experimental testbeds for simulating surgical tasks. My responsibilities included CAD modeling, rapid prototyping, sensor integration, and drafting technical documentation for clinical validation and publication.
                 </p>
             </div>
-           <div class="column large-6 w-900-stack s-about__photo-block">
-            <br><br>
-            <figure>
-                <img src="images\Thordrive_team_pic" 
-                srcset="images\Thordrive_team_pic@2x.jpg 1000w, 
-                images\Thordrive_team_pic.jpg 500w" 
-                sizes="(max-width: 1000px) 100vw, 1000px" alt="">
-            </figure>
+            <div class="column large-6 w-900-stack s-about__photo-block" data-aos="fade-up">
+                <figure>
+                    <img src="images/BIRTH_lab_pic.jpg"
+                         srcset="images/BIRTH_lab_pic@2x.jpg 1000w, images/BIRTH_lab_pic.jpg 500w"
+                         sizes="(max-width: 1000px) 100vw, 1000px"
+                         alt="BIRTH Lab at ASU">
+                </figure>
             </div>
         </div>
 
         <div class="row s-portfolio__list block-large-1-2 block-tab-full collapse">
-            <div class="column large-6 w-900-stack s-about__intro-text">
-                <h3 class="item-title"  data-aos="fade-up">GCSP Student Leader</h3>
+            <div class="column large-6 w-900-stack s-about__intro-text" data-aos="fade-up">
+                <h3 class="item-title">Controls Engineering Intern @ ClearFlame Technologies</h3>
+                <p>January 2024 – August 2024</p>
                 <p>
-                    August 2021 - Present || Arizona State University 
-                <p  data-aos="fade-up">
-                    The National Academy of Engineers' Grand Challenges Scholars Program combines innovative 
-                    curriculum and cutting-edge research experiences into an intellectual fusion that spans 
-                    academic disciplines and includes entrepreneurial, global, and service learning 
-                    opportunities
-                    I served as a Student Leaders for the program for 3 semesters. As a SL represented ASU’s 
-                    chapter of GCSP and worked alongside GCSP facility. I organized social and professional events 
-                    and provided the community of 300+ students with networking opportunities.
+                    As a Controls Engineering Intern at ClearFlame Technologies, I worked on advanced engine control systems for ethanol-based combustion engines. I developed an On-Board Diagnostics (OBD) system using OpenECU and Simulink, ensuring compliance with SAE J1939 standards for vehicle communication and diagnostics. To support scalable development, I designed modular Simulink libraries for real-time monitoring of digital, analog, and CAN signals. Additionally, I built a comprehensive test harness to validate system reliability and performance under dynamic operating conditions, contributing to the overall robustness of ClearFlame’s engine control platform.
                 </p>
             </div>
-           <div class="column large-6 w-900-stack s-about__photo-block">
-            <figure>
-                <img src="images\GCSP_SL" 
-                srcset="images\GCSP_SL@2x.jpg 1000w, 
-                images\GCSP_SL.jpg 500w" 
-                sizes="(max-width: 1000px) 100vw, 1000px" alt="">
-            </figure>
-            </div>
-
-
-            
-        <div class="row s-portfolio__list block-large-1-2 block-tab-full collapse">
-            <div class="column large-6 w-900-stack s-about__intro-text">
-                <h3 class="item-title"  data-aos="fade-up">Summer Camp Instructor & Lead</h3>
-                <p>
-                    May 2023 - August 2023 || Arizona State University 
-                <p  data-aos="fade-up">
-                    As a Camp Lead for SEE@ASU, NSTI@ASU, LEGO Camp@ASU, GCSP Conenct, and E2@ASU, along with being an Instructor 
-                    for Barrett Summer Scholars and GEARUP, I had the privilege to excel in various roles. Through captivating week-long 
-                    lectures on Biomimicry and Engineering Design, I honed my teaching skills while fostering a collaborative and 
-                    inclusive learning environment. My expertise in logistics management ensured seamless operations, while my 
-                    team management abilities motivated dedicated staff members to work cohesively. It was truly rewarding to contribute 
-                    to the growth of individuals and leave a positive mark on these prestigious ASU programs.
-                </p>
-            </div>
-           <div class="column large-6 w-900-stack s-about__photo-block">
-            <figure>
-                <img src="images/summer_camp.jpg" 
-                srcset="images/summer_camp.jpg 1000w, 
-                images/summer_camp.jpg 500w" 
-                sizes="(max-width: 1000px) 100vw, 1000px" alt="">
-            </figure>
-            </div>
-
-        </div><div class="row s-portfolio__list block-large-1-2 block-tab-full collapse">
-            <div class="column large-6 w-900-stack s-about__intro-text">
-                <h3 class="item-title"  data-aos="fade-up">Co-President Fulton Ambassadors</h3>
-                <p>
-                    May 2022 - April 2023 || Arizona State University 
-                <p  data-aos="fade-up">
-                    Fulton Ambassadors is para-profesional organisation that represents 
-                    Ira A. Fulton Schools of Engineering before the donors and industry partners
-                    As the Co-President I provided strategic direction for the organization 
-                    and managed 90 students. Additionally I oversaw existing activities, 
-                    professional programs and outreach programs for the Fulton Schools of Engineering
-                    I also served as the Co-Tour Director from May 2021 - April 2022 before transitioning
-                    into this responsible
-                </p>
-            </div>
-           <div class="column large-6 w-900-stack s-about__photo-block">
-            <figure>
-                <img src="images\FA_EBoard" 
-                srcset="images\FA_EBoard@2x.jpg 1000w, 
-                images\FA_EBoard.jpg 500w" 
-                sizes="(max-width: 1000px) 100vw, 1000px" alt="">
-            </figure>
+            <div class="column large-6 w-900-stack s-about__photo-block" data-aos="fade-up">
+                <figure>
+                    <img src="images/ClearFlame_pic.jpg"
+                         srcset="images/ClearFlame_pic@2x.jpg 1000w, images/ClearFlame_pic.jpg 500w"
+                         sizes="(max-width: 1000px) 100vw, 1000px"
+                         alt="ClearFlame Technologies">
+                </figure>
             </div>
         </div>
 
-        
-
         <div class="row s-portfolio__list block-large-1-2 block-tab-full collapse">
-            <div class="column large-6 w-900-stack s-about__intro-text">
-                <h3 class="item-title"  data-aos="fade-up">EPICS High Mentor</h3>
+            <div class="column large-6 w-900-stack s-about__intro-text" data-aos="fade-up">
+                <h3 class="item-title">Engineering Intern @ ThorDrive AI</h3>
+                <p>May 2022 – April 2023</p>
                 <p>
-                    September 2021 - May 2022 || Arizona State University 
-                <p  data-aos="fade-up">
-                    EPICS (Engineering Projects in Community Service) High is an engineering, 
-                    service learning program that engages high school classrooms in working with 
-                    stakeholders in their communities to develop solutions to real-world problems.
-                    As a mentor for this program I mentored 15 EPICS teams at 3 schools through 
-                    active guidance and interaction. I essentially helped the teams prepare for 
-                    funding competitions, proposals, and other related events.
+                    As a Mechatronics Intern at ThorDrive Inc., I contributed to their autonomous Ground Support Equipment (GSE) program at CVG Airport. I engineered a custom J1939 protocol layer to transmit over 60 sensor data messages between the MCU and VCU via the vehicle CANBUS. I also conducted market research to identify and integrate improved sensors and actuators, enhancing the vehicle's overall design. To support data-driven development, I automated the analysis and visualization of large datasets (4.5M+ lines) from the vehicle’s CANBUS, IMU, and GNSS sensors using MATLAB and ROS. Additionally, I performed Fourier transform analysis on vibration data to assist in the design of a vibration isolation system. My responsibilities also included authoring detailed technical documentation and performance reports on sensor integration and system evaluation.
                 </p>
             </div>
-           <div class="column large-6 w-900-stack s-about__photo-block">
-            <figure>
-                <img src="images\EPICS_High_Mentor" 
-                srcset="images\EPICS_High_Mentor@2x.jpg 1000w, 
-                images\EPICS_High_Mentor.jpg 500w" 
-                sizes="(max-width: 1000px) 100vw, 1000px" alt="">
-            </figure>
+            <div class="column large-6 w-900-stack s-about__photo-block" data-aos="fade-up">
+                <figure>
+                    <img src="images/Thordrive_team_pic.jpg"
+                         srcset="images/Thordrive_team_pic@2x.jpg 1000w, images/Thordrive_team_pic.jpg 500w"
+                         sizes="(max-width: 1000px) 100vw, 1000px"
+                         alt="ThorDrive AI Team">
+                </figure>
             </div>
         </div>
 
-        
-
-        
-
-        <div class="row">
-            <div class="column large-12 intro h-text-center">
-                <h1>My Previous Positions</h1>
-            </div>
-        <div class="row block-large-1-2 block-tab-full s-services__services item-list">
-            
-            <div class="row block-large-1-2 block-tab-full s-services__services item-list">
-                <div class="column item item-service" data-aos="fade-up">
-                    <h3 class="item-title"> Undergraduate Teaching Assistant</h3>
-                    <p>
-                        July 2021 - Present  || Arizona State University<br>
-                        <br>
-                        As an Undergraduate Engineering Instructional Assistant, I prepared course 
-                        material for FSE 100 (Introduction to Engineering) with Dr. Ganesh (Assistant Dean). 
-                        Additionally, I facilitated lab experiments and in-class exploratory activities 
-                        and hosted review sessions for Arduino, sensors, and actuators, and SolidWorks. 
-                    </p>
-                </div>
-                <div class="column item item-service" data-aos="fade-up">
-                <h3 class="item-title">National Summer Transportation Institute Engineering Mentor</h3>
+        <div class="row s-portfolio__list block-large-1-2 block-tab-full collapse">
+            <div class="column large-6 w-900-stack s-about__intro-text" data-aos="fade-up">
+                <h3 class="item-title">Graduate Teaching Assistant @ ASU – FSE 100</h3>
+                <p>August 2024 – May 2025</p>
                 <p>
-                    June 2021 - July 2021  || Arizona State University<br>
-                    <br>
-                    As a mentor for the NSTI Engineering camp, I served as an 
-                    engineering role model and taught participants (high school 
-                    students) to code Arduino with sensors to build a smart car. 
-                    As a mentor, I also facilitated group work through active 
-                    guidance and interaction with the teams.
+                    I currently serve as a Graduate Teaching Assistant for FSE 100, ASU's introductory engineering course with over 500 students per semester. In this role, I lead lab sessions, facilitate group design projects, and provide technical mentorship in engineering fundamentals, project planning, and prototyping. I assist in grading technical reports and presentations, manage classroom logistics, and offer one-on-one academic support to help students transition into the engineering curriculum. Prior to this, I served as both an Undergraduate Teaching Assistant (UGTA) and Undergraduate Instructional Assistant (UGIA) across multiple semesters, supporting over 800 students cumulatively. My experience reflects a strong commitment to engineering education and student development.
                 </p>
             </div>
-            <div class="column item item-service" data-aos="fade-up">
-                    <h3 class="item-title"> Undergraduate Teaching Assistant</h3>
-                    <p>
-                        Jan 2021 - Dec 2021  || Arizona State University <br>
-                        <br>
-                        As a UGTA for EGR 101:Foundation of Engineering Design (With  Dr. Frank) and 
-                        FSE 150: Introduction to Grand Challenges (with Dr. Trowbridge) for 
-                        I assisted the professor with exploratory 
-                        and collaborative activities and conducted weekly office hours to 
-                        help students with their doubts.
-                    </p>
-                </div>
-            <div class="column item item-service" data-aos="fade-up">
-                <h3 class="item-title">Research Assistant -- RISE Lab</h3>
-                <p>
-                    Jan 2021 - May 2021  || Arizona State University <br>
-                    <br>
-                    As a volunteer at the RISE Lab, I served as a research assistant. 
-                    In this role, I assisted in prototyping devices for the soft 
-                    robotics exosuite. I designed a hip-flection device using pneumatic 
-                    actuator.
+            <div class="column large-6 w-900-stack s-about__photo-block" data-aos="fade-up">
+                <figure>
+                    <img src="images/FSE100_ta_pic.jpg"
+                         srcset="images/FSE100_ta_pic@2x.jpg 1000w, images/FSE100_ta_pic.jpg 500w"
+                         sizes="(max-width: 1000px) 100vw, 1000px"
+                         alt="FSE 100 Teaching Assistant">
+                </figure>
+            </div>
+        </div>
+
+        <div class="row s-portfolio__list block-large-1-2 block-tab-full collapse">
+            <div class="column large-6 w-900-stack s-about__intro-text" data-aos="fade-up">
+                <h3 class="item-title">Leadership &amp; Mentorship Roles</h3>
+                <p>2021 – 2023 || Arizona State University</p>
+                <p data-aos="fade-up">
+                    Led 90+ peers as Co-President of Fulton Ambassadors, representing ASU’s engineering school to donors, industry, and prospective students. Organized outreach and professional development programs. As a GCSP Student Leader, supported 300+ interdisciplinary students through community-building and networking events. Mentored high school teams in EPICS High on real-world engineering projects. Also contributed to soft robotics research at the RISE Lab and supported hybrid classrooms through the University Technology Office.<br>
+                    • Fulton Ambassadors – Co-President, led 90+ members, external engagement<br>
+                    • GCSP – Student Leader, events and community support for 300+ students<br>
+                    • EPICS High – Mentor, guided student teams on engineering solutions<br>
+                    • RISE Lab – Research Assistant, soft robotics prototyping
                 </p>
-            </div>       
-            <div class="column item item-service" data-aos="fade-up">
-                <h3 class="item-title">Technology Assistant</h3>
+            </div>
+            <div class="column large-6 w-900-stack s-about__photo-block" data-aos="fade-up">
+                <figure>
+                    <img src="images/GCSP_SL.jpg"
+                         srcset="images/GCSP_SL@2x.jpg 1000w, images/GCSP_SL.jpg 500w"
+                         sizes="(max-width: 1000px) 100vw, 1000px"
+                         alt="GCSP Student Leaders at ASU">
+                </figure>
+            </div>
+        </div>
+
+        <div class="row s-portfolio__list block-large-1-2 block-tab-full collapse">
+            <div class="column large-6 w-900-stack s-about__intro-text" data-aos="fade-up">
+                <h3 class="item-title">STEM Education Instructor &amp; Camp Lead</h3>
+                <p>2021 – 2023 || Arizona State University</p>
                 <p>
-                    Jan 2021 - Apr 2021  || University Technology Office @ASU <br>
-                    <br>
-                    In this role, I operated and troubleshot video and audio controls 
-                    for remote sessions, and assisted the professors and students 
-                    regarding any technical difficulties arising in the classroom 
-                    setting.
+                    Served in multi-year instructional roles for ASU’s premier outreach and education programs, including SEE@ASU, NSTI, LEGO Camp, Barrett Summer Scholars, and GEARUP. Delivered engaging, week-long modules on biomimicry, robotics, and design thinking. Led teams, managed logistics, and supported over 200 students across K–12 pipelines. Also supported FSE 100, EGR 101, and FSE 150 courses as an Undergraduate Teaching Assistant, facilitating labs, review sessions, and hands-on instruction in Arduino, sensors, and SolidWorks.
                 </p>
-            </div> 
+            </div>
+            <div class="column large-6 w-900-stack s-about__photo-block" data-aos="fade-up">
+                <figure>
+                    <img src="images/summer_camp.jpg"
+                         srcset="images/summer_camp.jpg 1000w, images/summer_camp.jpg 500w"
+                         sizes="(max-width: 1000px) 100vw, 1000px"
+                         alt="Teaching at ASU summer camp">
+                </figure>
+            </div>
         </div>
 
     </section> <!-- end s-services -->
 
+
+    <!-- portfolio
+    ================================================== -->
     <section id="portfolio" class="s-portfolio">
 
         <div class="row s-porfolio__top">
-            <div class="column large-6 w-900-stack">
+            <div class="column large-6 w-900-stack" data-aos="fade-up">
                 <div class="section-title" data-num="03" data-aos="fade-up">
                     <h3 class="h6">My Projects</h3>
                 </div>
             </div>
             <div class="column large-6 w-900-stack" data-aos="fade-up">
-                <h1 class="display-1" data-aos="fade-up">
-                    Here are some of the projects I worked on lately. 
-                    <br>
+                <h1 class="display-1">
+                    Here are some of the projects I worked on lately.<br>
                 </h1>
             </div>
-        </div> <!-- end s-portfolio__top-->
+        </div> <!-- end s-portfolio__top -->
 
         <div class="row s-portfolio__list block-large-1-2 block-tab-full collapse">
-            
-            <div class="column large-6 w-900-stack s-about__intro-text">
-                <h5 class="display-1" data-aos="fade-up">
-                    Devils Prosthetics
+            <!-- Project 1 -->
+            <div class="column large-6 w-900-stack s-about__intro-text" data-aos="fade-up">
+                <h5 class="display-1">
+                    Minimally Invasive Thrombectomy Via Modular Magnetic Miniature (M3) Robots
                 </h5>
-                <small data-aos="fade-up">January 2022 - Present </small>
-                <p  data-aos="fade-up">
-                    As a part of EPICS's ASU chapter, I am leading the design of Devils Prosthetics' electrical 
-                    and mechanical subsytems as the design-lead. Devils Prosthetics is focused on producing a 3D-printed 
-                    myoelectric prosthetic for transradial amputations. I designed and optimized the electrical 
-                    systems of the prosthetic consisting of myoelectric sensors and servos. Additionally, I assisted in 
-                    writing and presenting grant applications winning the team $5000 in EPICS Elite Pitch Funding
-                    <br><a href="https://www.linkedin.com/company/devil-prosthetics/insights/">Project Website</a>
+                <small data-aos="fade-up">July 2024 – May 2025 | Bio-Inspired Robotics Tech &amp; Healthcare x Mayo Clinic AZ</small>
+                <p data-aos="fade-up">
+                    This patent-pending thesis project focuses on developing a minimally invasive, magnetically guided blood clot removal tool that integrates soft robotics and high-strength magnetic control. I co-authored a patent-pending (US provisional application) thrombectomy system designed for targeted endovascular procedures. My contributions include designing and 3D printing custom mounting structures for magnetic actuation and integrating them with a UR16e robotic arm. I also performed finite element analysis (FEA) to optimize the system’s structural and magnetic performance. Additionally, I assisted in developing vision-based tracking algorithms to improve real-time localization and navigation. This collaborative effort between clinicians and engineers has led to significant advancements in magnetic-assisted minimally invasive surgical techniques.
                 </p>
             </div>
-            <div class="column large-6 w-900-stack s-about__photo-block">
+            <div class="column large-6 w-900-stack s-about__photo-block" data-aos="fade-up">
                 <figure>
-                    <img src="images\portfolio\devils_prosthetic@" 
-                    srcset="images\portfolio\devils_prosthetic@2x.jpg 1000w, 
-                    images\portfolio\devils_prosthetic.jpg 500w" 
-                    sizes="(max-width: 1000px) 100vw, 1000px" alt="">
+                    <img src="images/BIRTH_lab_pic.jpg"
+                         srcset="images/BIRTH_lab_pic@2x.jpg 1000w, images/BIRTH_lab_pic.jpg 500w"
+                         sizes="(max-width: 1000px) 100vw, 1000px"
+                         alt="Modular Magnetic Thrombectomy prototype in testing">
                 </figure>
             </div>
 
-            <div class="column large-6 w-900-stack s-about__intro-text">
-                <h5 class="display-1" data-aos="fade-up">
-                    ChemE Car @ASU
-                </h5>
-                <small data-aos="fade-up">Spring 2023</small>
-                <p  data-aos="fade-up">
-                    The ChemE Car@ASU project, "Fueled Feline," involved designing a small car powered by 
-                    Thermoelectric Generators (TEGs) with a 100°C temperature differential. As the Design Lead, 
-                    I oversaw the creation of the physical car, reactor, SolidWorks model, and engineering design packet. 
-                    Our efforts earned us second prize at the regional competition hosted by AIChE at UCSD. Currently, 
-                    we are working on an exciting new project, developing a car powered by a hydrogen fuel cell, aiming 
-                    to promote sustainable and clean energy solutions.
-                    <br><a href="cheme-car-asu.github.io">Project Website</a>
+            <!-- Project 2 -->
+            <div class="column large-6 w-900-stack s-about__intro-text" data-aos="fade-up">
+                <h5 class="display-1">Soft-Robotic Ostrich</h5>
+                <small data-aos="fade-up">August 2024 – December 2024 | Soft-Robots @ASU</small>
+                <p data-aos="fade-up">
+                    Inspired by avian biomechanics, this project focused on the design and development of a soft robotic system modeled after an ostrich. I simulated dynamic gait and stride optimization using MuJoCo with soft-body physics, replicating realistic locomotion mechanics. I also modeled and tested flexible material structures to balance durability and mobility. This was a group project. The system was physically prototyped using ESP32 microcontrollers and servo motors, enabling real-world validation of performance metrics such as stride length, frequency, and overall stability.<br>
+                    <a href="https://youtu.be/-qGMtcccdSw">Project Video</a><br>
+                    <a href="https://github.com/deepit-arora/foldable_robotics_ostrich">GitHub Repo</a>
                 </p>
             </div>
-            <div class="column large-6 w-900-stack s-about__photo-block">
-                
+            <div class="column large-6 w-900-stack s-about__photo-block" data-aos="fade-up">
                 <figure>
-                    <img src="images/cheme_car.jpg" 
-                    srcset="images/cheme_car.jpg 1000w, 
-                    images/cheme_car.jpg 500w" 
-                    sizes="(max-width: 1000px) 100vw, 1000px" alt="">
+                    <img src="images/soft_robotic_ostrich.jpg"
+                         srcset="images/soft_robotic_ostrich.jpg 1000w, images/soft_robotic_ostrich.jpg 500w"
+                         sizes="(max-width: 1000px) 100vw, 1000px"
+                         alt="Soft-Robotic Ostrich prototype">
                 </figure>
             </div>
 
-            <div class="column large-6 w-900-stack s-about__intro-text">
-                <h5 class="display-1" data-aos="fade-up">
-                    Autonomous Drone 
-                </h5>
-                <small data-aos="fade-up">Spring 2023</small>
-                <p  data-aos="fade-up">
-                    For my Robotics Systems class, I worked on a project involving the Parrot Mambo drone. 
-                    Using Simulink and MATLAB, we explored drone kinematics and conducted simulations. By implementing a Kalman filter and 
-                    image processing techniques, we improved the drone's stability and control. Notably, we achieved the drone's 
-                    ability to autonomously follow a colored line with precision. This project honed my skills in 
-                    UAV kinematics, Simulink modeling, image processing, and control systems, fueling my passion 
-                    for robotics and autonomous technologies.
-                    
+            <!-- Project 3 -->
+            <div class="column large-6 w-900-stack s-about__intro-text" data-aos="fade-up">
+                <h5 class="display-1">Desert MechMinds: Robot Dynamics GUI</h5>
+                <small data-aos="fade-up">Spring 2024 | MAE547 @ASU</small>
+                <p data-aos="fade-up">
+                    Developed an interactive MATLAB GUI for visualizing and controlling custom robotic manipulators via symbolic and numeric input. The system supports full DH parameter entry and simulates both compliance and impedance control in real time. I contributed to impedance and compliance graph plotting, refined user input handling, and co-led testing for multi-DOF systems. Forward kinematics, Jacobian, and dynamic models were visualized, and system behavior under external loads was validated with parameterized simulations.<br>
+                    <a href="https://github.com/deepit-arora/EGR547_Desert_MechMinds" target="_blank">GitHub Repo</a>
                 </p>
             </div>
-            <div class="column large-6 w-900-stack s-about__photo-block">
-                
+            <div class="column large-6 w-900-stack s-about__photo-block" data-aos="fade-up">
                 <figure>
-                    <img src="images/autonmous_drone.jpg" 
-                    srcset="images/autonmous_drone.jpg 1000w, 
-                    images/autonmous_drone.jpg 500w" 
-                    sizes="(max-width: 1000px) 100vw, 1000px" alt="">
+                    <img src="images/desert_mechminds.jpg"
+                         srcset="images/desert_mechminds.jpg 1000w, images/desert_mechminds.jpg 500w"
+                         sizes="(max-width: 1000px) 100vw, 1000px"
+                         alt="Robot GUI Project Screenshot">
                 </figure>
             </div>
 
-            <div class="column large-6 w-900-stack s-about__intro-text">
-                <h5 class="display-1" data-aos="fade-up">
-                    Embedded System : Missing Umbrella 
-                </h5>
-                <small data-aos="fade-up">Spring 2023</small>
-                <p  data-aos="fade-up">
-                    For our junior capstone, our team took on the challenge 
-                    of developing a PCB from scratch to control actuators and sensors. The endeavor showcased our diverse skill 
-                    set and collaborative approach. First and foremost, our proficiency in PCB designing allowed us to 
-                    create a customized and efficient board that seamlessly integrated with our mechatronics system. 
-                    Through meticulous microcontroller coding, we enabled precise control over the actuators and sensors, 
-                    ensuring a smooth and user-friendly experience. The entire engineering design process was diligently 
-                    followed, from concept ideation to prototyping and iterative improvements. Additionally, our keen eye for 
-                    component selection played a pivotal role in achieving optimal performance and cost-effectiveness. 
-                    <br><a href="egr314-team205.github.io">Project Website</a>
+            <!-- Project 4 -->
+            <div class="column large-6 w-900-stack s-about__intro-text" data-aos="fade-up">
+                <h5 class="display-1">Gesture-Based Assistive Robotics</h5>
+                <small data-aos="fade-up">Fall 2024 | NeurIPS Submission</small>
+                <p data-aos="fade-up">
+                    Created gesture-controlled simulations for assistive robotics using a Vision-Language Model (VLM) pipeline. Three environments—smart home, robotic arm, and wheelchair—were tested using facial and hand gestures. I implemented an embedding-based recognition model using CLIP-style similarity matching, significantly improving task accuracy and reducing response time compared to baseline LLaVA. Our approach demonstrated 100% recognition accuracy in the wheelchair task and introduced robust gesture semantics adaptable to diverse user needs.<br>
+                    <a href="https://github.com/jtint24/VLM-Gesture-Recognition" target="_blank">GitHub Repo</a>
                 </p>
             </div>
-            <div class="column large-6 w-900-stack s-about__photo-block">
-                
+            <div class="column large-6 w-900-stack s-about__photo-block" data-aos="fade-up">
                 <figure>
-                    <img src="images/EGR314_project.jpg" 
-                    srcset="images/EGR314_project.jpg 1000w, 
-                    images/EGR314_project.jpg 500w" 
-                    sizes="(max-width: 1000px) 100vw, 1000px" alt="">
+                    <img src="images/gesture_recognition.jpg"
+                         srcset="images/gesture_recognition.jpg 1000w, images/gesture_recognition.jpg 500w"
+                         sizes="(max-width: 1000px) 100vw, 1000px"
+                         alt="Gesture recognition simulation interface">
                 </figure>
             </div>
-            
-            <div class="column large-6 w-900-stack s-about__intro-text">
-                <h5 class="display-1" data-aos="fade-up">
-                    Drawing Robot
-                </h5>
+
+            <!-- Project 5 -->
+            <div class="column large-6 w-900-stack s-about__intro-text" data-aos="fade-up">
+                <h5 class="display-1">Automated Wafer Hoist System</h5>
+                <small data-aos="fade-up">Spring 2024 | EGR 402 Capstone</small>
+                <p data-aos="fade-up">
+                    Designed and prototyped an automated hoist system to transfer semiconductor FOUPs within ISO-3 cleanroom environments. The system combined a NEMA stepper-driven linear rail, anti-backlash nuts, and sensor-integrated grippers. I contributed to system integration, FEA-based stress testing, and rapid prototyping using 3D printing and CNC-machined aluminum. Performance was validated through real-world stress tests and SolidWorks motion simulations to ensure cleanroom compatibility and mechanical precision.
+                </p>
+            </div>
+            <div class="column large-6 w-900-stack s-about__photo-block" data-aos="fade-up">
+                <figure>
+                    <img src="images/wafer_hoist.jpg"
+                         srcset="images/wafer_hoist.jpg 1000w, images/wafer_hoist.jpg 500w"
+                         sizes="(max-width: 1000px) 100vw, 1000px"
+                         alt="Wafer hoist prototype rendering">
+                </figure>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="column large-6 w-900-stack s-about__intro-text" data-aos="fade-up">
+                <h5 class="display-1">Competitive Multi-Agent Reinforcement Learning</h5>
+                <small data-aos="fade-up">Spring 2025 | EEE 598 @ASU</small>
+                <p data-aos="fade-up">
+                    Investigated competitive reinforcement learning using self-play within the FightLadder gaming platform and autonomous traffic scenarios. I explored policy robustness through Elo ratings, exploitability testing, and curriculum learning in zero-sum Markov games. Our system achieved over 98% success in merging simulations and defeated built-in AI in fighting games using League Training strategies. My role focused on implementation analysis, system tuning, and presenting our findings as part of a multi-agent strategy pipeline.
+                </p>
+            </div>
+            <div class="column large-6 w-900-stack s-about__photo-block" data-aos="fade-up">
+                <figure>
+                    <img src="images/fightladder_rl.jpg"
+                         srcset="images/fightladder_rl.jpg 1000w, images/fightladder_rl.jpg 500w"
+                         sizes="(max-width: 1000px) 100vw, 1000px"
+                         alt="Reinforcement Learning FightLadder Benchmark">
+                </figure>
+            </div>
+
+            <!-- Project 7 -->
+            <div class="column large-6 w-900-stack s-about__intro-text" data-aos="fade-up">
+                <h5 class="display-1">Devils Prosthetics</h5>
+                <small data-aos="fade-up">January 2022 – Present</small>
+                <p data-aos="fade-up">
+                    As a part of EPICS's ASU chapter, I am leading the design of Devils Prosthetics' electrical and mechanical subsystems as the design-lead. Devils Prosthetics is focused on producing a 3D-printed myoelectric prosthetic for transradial amputations. I designed and optimized the electrical systems of the prosthetic consisting of myoelectric sensors and servos. Additionally, I assisted in writing and presenting grant applications, winning the team $5,000 in EPICS Elite Pitch Funding.<br>
+                    <a href="https://www.linkedin.com/company/devil-prosthetics/insights/">Project Website</a>
+                </p>
+            </div>
+            <div class="column large-6 w-900-stack s-about__photo-block" data-aos="fade-up">
+                <figure>
+                    <img src="images/devils_prosthetic@2x.jpg"
+                         srcset="images/devils_prosthetic@2x.jpg 1000w, images/devils_prosthetic.jpg 500w"
+                         sizes="(max-width: 1000px) 100vw, 1000px"
+                         alt="Devils Prosthetics">
+                </figure>
+            </div>
+
+            <!-- Project 8 -->
+            <div class="column large-6 w-900-stack s-about__intro-text" data-aos="fade-up">
+                <h5 class="display-1">ChemE Car @ASU</h5>
+                <small data-aos="fade-up">Spring 2023</small>
+                <p data-aos="fade-up">
+                    The ChemE Car@ASU project, "Fueled Feline," involved designing a small car powered by Thermoelectric Generators (TEGs) with a 100°C temperature differential. As the Design Lead, I oversaw the creation of the physical car, reactor, SolidWorks model, and engineering design packet. Our efforts earned us second prize at the regional competition hosted by AIChE at UCSD. Currently, we are working on an exciting new project, developing a car powered by a hydrogen fuel cell, aiming to promote sustainable and clean energy solutions.<br>
+                    <a href="https://cheme-car-asu.github.io">Project Website</a>
+                </p>
+            </div>
+            <div class="column large-6 w-900-stack s-about__photo-block" data-aos="fade-up">
+                <figure>
+                    <img src="images/cheme_car.jpg"
+                         srcset="images/cheme_car.jpg 1000w, images/cheme_car.jpg 500w"
+                         sizes="(max-width: 1000px) 100vw, 1000px"
+                         alt="ChemE Car @ASU">
+                </figure>
+            </div>
+
+            <!-- Project 9 -->
+            <div class="column large-6 w-900-stack s-about__intro-text" data-aos="fade-up">
+                <h5 class="display-1">Autonomous Drone</h5>
+                <small data-aos="fade-up">Spring 2023</small>
+                <p data-aos="fade-up">
+                    For my Robotics Systems class, I worked on a project involving the Parrot Mambo drone. Using Simulink and MATLAB, we explored drone kinematics and conducted simulations. By implementing a Kalman filter and image processing techniques, we improved the drone's stability and control. Notably, we achieved the drone's ability to autonomously follow a colored line with precision. This project honed my skills in UAV kinematics, Simulink modeling, image processing, and control systems, fueling my passion for robotics and autonomous technologies.
+                </p>
+            </div>
+            <div class="column large-6 w-900-stack s-about__photo-block" data-aos="fade-up">
+                <figure>
+                    <img src="images/autonmous_drone.jpg"
+                         srcset="images/autonmous_drone.jpg 1000w, images/autonmous_drone.jpg 500w"
+                         sizes="(max-width: 1000px) 100vw, 1000px"
+                         alt="Autonomous drone simulation">
+                </figure>
+            </div>
+
+            <!-- Project 10 -->
+            <div class="column large-6 w-900-stack s-about__intro-text" data-aos="fade-up">
+                <h5 class="display-1">Embedded System: Missing Umbrella</h5>
+                <small data-aos="fade-up">Spring 2023</small>
+                <p data-aos="fade-up">
+                    For our junior capstone, our team took on the challenge of developing a PCB from scratch to control actuators and sensors. The endeavor showcased our diverse skill set and collaborative approach. First and foremost, our proficiency in PCB designing allowed us to create a customized and efficient board that seamlessly integrated with our mechatronics system. Through meticulous microcontroller coding, we enabled precise control over the actuators and sensors, ensuring a smooth and user-friendly experience. The entire engineering design process was diligently followed, from concept ideation to prototyping and iterative improvements. Additionally, our keen eye for component selection played a pivotal role in achieving optimal performance and cost-effectiveness.<br>
+                    <a href="https://egr314-team205.github.io">Project Website</a>
+                </p>
+            </div>
+            <div class="column large-6 w-900-stack s-about__photo-block" data-aos="fade-up">
+                <figure>
+                    <img src="images/EGR314_project.jpg"
+                         srcset="images/EGR314_project.jpg 1000w, images/EGR314_project.jpg 500w"
+                         sizes="(max-width: 1000px) 100vw, 1000px"
+                         alt="Missing Umbrella PCB Project">
+                </figure>
+            </div>
+
+            <!-- Project 11 -->
+            <div class="column large-6 w-900-stack s-about__intro-text" data-aos="fade-up">
+                <h5 class="display-1">Drawing Robot</h5>
                 <small data-aos="fade-up">November 2022</small>
-                <p  data-aos="fade-up">
-                    This robot was my final project for EGR455 class. This robotutilizes the capabilities 
-                    of the Arduino board, along with the IMU and encoders and actuators, to control the 
-                    movement of a drawing tool. The robot is programmed using MATLAB to take an image input and 
-                    create a path to draw the outline. The code uses image extractation tools provided by MATLAB
-                    to generate a path that the robot can follow.  
-                    <br><a href="https://youtu.be/fP6HPBTwXd4">Project Video</a>
+                <p data-aos="fade-up">
+                    This robot was my final project for EGR455 class. This robot utilizes the capabilities of the Arduino board, along with the IMU and encoders and actuators, to control the movement of a drawing tool. The robot is programmed using MATLAB to take an image input and create a path to draw the outline. The code uses image extraction tools provided by MATLAB to generate a path that the robot can follow.<br>
+                    <a href="https://youtu.be/fP6HPBTwXd4">Project Video</a>
                 </p>
             </div>
-            <div class="column large-6 w-900-stack s-about__photo-block">
-                
+            <div class="column large-6 w-900-stack s-about__photo-block" data-aos="fade-up">
                 <figure>
-                    <img src="images\portfolio\drawing_robot" 
-                    srcset="images\portfolio\drawing_robot@2x.jpg 1000w, 
-                    images\portfolio\drawing_robot.jpg 500w" 
-                    sizes="(max-width: 1000px) 100vw, 1000px" alt="">
-                </figure>
-            </div>
-            
-            <div class="column large-6 w-900-stack s-about__intro-text">
-                <h5 class="display-1" data-aos="fade-up">
-                   Self Balancing Bike 
-                </h5>
-                <small data-aos="fade-up">September 2022 </small>
-                <p  data-aos="fade-up">
-                    The self-blancing bike uses centrifugal forces to balance itself and maintain stability, even 
-                    when subjected to external disturbances. This project utilizes the Arduino platform along with
-                    sensors like accelerometers and gyroscopes, are used to detect the orientation of the bike, while
-                    actuators, such as motors, are used to make adjustments to maintain balance. This project utilizes a PID controller
-                    that is designed and optimized by the team. This project required a thorough understanding of programming, 
-                    electronics, and control systems, as well as the ability to integrate these components into a functional system. 
-                    <br><a href="https://youtu.be/EEvpy3hlj5w">Project Video</a>
-                </p>
-            </div>
-            <div class="column large-6 w-900-stack s-about__photo-block">
-                
-                <figure>
-                    <img src="images\portfolio\self_balancing_bike" 
-                    srcset="images\portfolio\self_balancing_bike@2x.jpg 1000w, 
-                    images\portfolio\self_balancing_bike@2x.jpg 500w" 
-                    sizes="(max-width: 1000px) 100vw, 1000px" alt="">
+                    <img src="images/drawing_robot@2x.jpg"
+                         srcset="images/drawing_robot@2x.jpg 1000w, images/drawing_robot.jpg 500w"
+                         sizes="(max-width: 1000px) 100vw, 1000px"
+                         alt="Drawing Robot">
                 </figure>
             </div>
 
-            
+            <!-- Project 12 -->
+            <div class="column large-6 w-900-stack s-about__intro-text" data-aos="fade-up">
+                <h5 class="display-1">Self Balancing Bike</h5>
+                <small data-aos="fade-up">September 2022</small>
+                <p data-aos="fade-up">
+                    The self-balancing bike uses centrifugal forces to balance itself and maintain stability, even when subjected to external disturbances. This project utilizes the Arduino platform along with sensors like accelerometers and gyroscopes to detect the orientation of the bike, while actuators such as motors make adjustments to maintain balance. This project utilizes a PID controller that is designed and optimized by the team. This project required a thorough understanding of programming, electronics, and control systems, as well as the ability to integrate these components into a functional system.<br>
+                    <a href="https://youtu.be/EEvpy3hlj5w">Project Video</a>
+                </p>
+            </div>
+            <div class="column large-6 w-900-stack s-about__photo-block" data-aos="fade-up">
+                <figure>
+                    <img src="images/self_balancing_bike@2x.jpg"
+                         srcset="images/self_balancing_bike@2x.jpg 1000w, images/self_balancing_bike@2x.jpg 500w"
+                         sizes="(max-width: 1000px) 100vw, 1000px"
+                         alt="Self Balancing Bike">
+                </figure>
+            </div>
 
-            <div class="column large-6 w-900-stack s-about__intro-text">
-                <h5 class="display-1" data-aos="fade-up">
-                    Ocean Pollution Monitoring System
-                </h5>
+            <!-- Project 13 -->
+            <div class="column large-6 w-900-stack s-about__intro-text" data-aos="fade-up">
+                <h5 class="display-1">Ocean Pollution Monitoring System</h5>
                 <small data-aos="fade-up">Fall 2021</small>
-                <p  data-aos="fade-up">
-                    As a part of my final project for EGR 201, I designed an Ocean Pollution Monitoring System.
-                    The device is designed to be affordable (<$500) and smaller than a tablet.
-                    This device allows us to monitor the pollution levels in the water bodies and share that data with the 
-                    appropriate authorities. The device has a built-in propeller and GPS so that it can 
-                    move from one place to another and collect data from different sections of the water 
-                    body if necessary. The device is solar-powered. To measure the pollution levels, the device
-                    deploys multiple sensors ranging from TDS to Ph and turbidity. By analyzing the data
-                    from these sensors we can determine what is the source of pollution and take action.
+                <p data-aos="fade-up">
+                    As a part of my final project for EGR 201, I designed an Ocean Pollution Monitoring System. The device is designed to be affordable (&lt;$500) and smaller than a tablet. This device allows us to monitor the pollution levels in water bodies and share that data with the appropriate authorities. The device has a built-in propeller and GPS so that it can move from one place to another and collect data from different sections of the water body if necessary. The device is solar-powered. To measure the pollution levels, the device deploys multiple sensors ranging from TDS to pH and turbidity. By analyzing the data from these sensors we can determine the source of pollution and take action.<br>
                     <a href="ocean-pollution-monitoring-system.html">link</a>
                 </p>
             </div>
-            <div class="column large-6 w-900-stack s-about__photo-block">
-                
+            <div class="column large-6 w-900-stack s-about__photo-block" data-aos="fade-up">
                 <figure>
-                    <img src="images\portfolio\Pollution-monitoring-system" 
-                    srcset="images\portfolio\Pollution-monitoring-system@2x.jpg 1000w, 
-                    images\portfolio\Pollution-monitoring-system.jpg 500w" 
-                    sizes="(max-width: 1000px) 100vw, 1000px" alt="">
+                    <img src="images/Pollution-monitoring-system@2x.jpg"
+                         srcset="images/Pollution-monitoring-system@2x.jpg 1000w, images/Pollution-monitoring-system.jpg 500w"
+                         sizes="(max-width: 1000px) 100vw, 1000px"
+                         alt="Ocean Pollution Monitoring System">
                 </figure>
             </div>
 
-            <div class="column large-6 w-900-stack s-about__intro-text">
-                <h5 class="display-1" data-aos="fade-up">
-                    Automated Soldering System
-                </h5>
-                <small data-aos="fade-up" >Spring 22</small>
-                <p  data-aos="fade-up">
-                    During spring 22, under the mentorship of Dr. Mariana Bertoni and Dr. Anoop Grewal, 
-                    I worked on an automated soldering system to solder Copper ribbons on Photovoltaic cells. 
-                    This was especially challenging since the copper ribbons were only 200 microns thick. 
-                    The project is funded by Grand Challenges Scholars Program Research Stipend. Using this 
-                    machine Defect Lab@ASU plans on studying the thermomechanical stresses induced by soldering. 
-                    The automated system helps provide uniform solder and thus helps in getting consistent data.
-                    During this project, I gained extensive knowledge of PV cells and autonomous manufacturing. 
-                    <br><a href="https://furi.engineering.asu.edu/furiproject/designing-an-automated-soldering-station-to-solder-copper-ribbons-onto-pv-cells/">Research Poster</a>
-                   
+            <!-- Project 14 -->
+            <div class="column large-6 w-900-stack s-about__intro-text" data-aos="fade-up">
+                <h5 class="display-1">Automated Soldering System</h5>
+                <small data-aos="fade-up">Spring 22</small>
+                <p data-aos="fade-up">
+                    During spring 22, under the mentorship of Dr. Mariana Bertoni and Dr. Anoop Grewal, I worked on an automated soldering system to solder Copper ribbons on Photovoltaic cells. This was especially challenging since the copper ribbons were only 200 microns thick. The project is funded by Grand Challenges Scholars Program Research Stipend. Using this machine, Defect Lab@ASU plans on studying the thermomechanical stresses induced by soldering. The automated system helps provide uniform solder and thus helps in getting consistent data. During this project, I gained extensive knowledge of PV cells and autonomous manufacturing.<br>
+                    <a href="https://furi.engineering.asu.edu/furiproject/designing-an-automated-soldering-station-to-solder-copper-ribbons-onto-pv-cells/">Research Poster</a>
                 </p>
             </div>
-            <div class="column large-6 w-900-stack s-about__photo-block">
-                
+            <div class="column large-6 w-900-stack s-about__photo-block" data-aos="fade-up">
                 <figure>
-                    <img src="images\portfolio\Automated-Soldering-System.jpg"
-                    srcset="images\portfolio\Automated-Soldering-System@2x.jpg 1000w, 
-                    images\portfolio\Automated-Soldering-System.jpg 500w" 
-                    sizes="(max-width: 1000px) 100vw, 1000px" alt="">
+                    <img src="images/Automated-Soldering-System@2x.jpg"
+                         srcset="images/Automated-Soldering-System@2x.jpg 1000w, images/Automated-Soldering-System.jpg 500w"
+                         sizes="(max-width: 1000px) 100vw, 1000px"
+                         alt="Automated Soldering System">
                 </figure>
             </div>
-
-
-            <div class="column large-6 w-900-stack s-about__intro-text">
-                <h5 class="display-1" data-aos="fade-up">
-                    Plastic Recycling System, Ethiopia
-                </h5>
-                <small data-aos="fade-up" >Fall 22</small>
-                <p  data-aos="fade-up">
-                    Collaborated with a team to design a Plastic Recycling System to solve the problem of plastic pollution in Debark, Ethiopia.  
-                    The solution consists of a shredder and an extruder. Using this the team plan on reducing the plastic pollution in 
-                    Debark region and recycling that plastic to make souvenirs to boost the local economy.
-                    The project is in collaboration with Engineers Without Borders @ASU, Precious Plastics, and Simien Mountains Gelada Research Project.
-                    The project will be completed by Fall23. 
-                    <br>
-                    
-                </p>
-            </div>
-            <div class="column large-6 w-900-stack s-about__photo-block">
-                
-                <figure>
-                    <img src="images\portfolio\Plastic-Recycling-System.jpg"
-                    srcset="images\portfolio\Plastic-Recycling-System.jpg 1000w, 
-                    images\portfolio\Plastic-Recycling-System.jpg 500w" 
-                    sizes="(max-width: 1000px) 100vw, 1000px" alt="">
-                </figure>
-            </div>
-            
-
-            <div class="row">
-
-                <div class="column large-12 intro h-text-center">
-    
-                    <h1>Check out some of my previous projects</h1>
-    
-                    <p class="lead h-text-center">Click on the image to know more
-                    </p>
-                </div>
-    
-            </div>
-            
-
-
-            <div class="column" data-aos="fade-up">
-                <div class="folio-item">
-                    <div class="folio-item__thumb">
-                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/analytical-studying-on-robotics-kits.jpg" title="Analytical Studying on Robotics Kits " data-size="1050x700">
-                            <img src="images/portfolio/analytical-studying-on-robotics-kits.jpg" 
-                                 srcset="images/portfolio/analytical-studying-on-robotics-kits.jpg 1x, images/portfolio/analytical-studying-on-robotics-kits@2x.jpg 2x" alt="">
-                        </a>
-                    </div>
-                    <div class="folio-item__info">
-                        <div class="folio-item__cat"></div>
-                        <h4 class="folio-item__title">Analytical Study on Robotics Kits</h4>
-                            <summary>
-                                As a part of my final project for EGR 104  (Critical Inquiry
-                                for Engineers), my team studied how robotics kits like LEGO
-                                Minstrom affect the mindset of high-school students towards
-                                the field of engineering.                       
-                                The study sheds light on how many members of the younger generations are 
-                                interested or could become interested in robotics.
-                                It also shows where the schools can focus to further these interests and help students grow.
-                            </summary>
-                    </div>
-                    
-                    <a href="https://docs.google.com/presentation/d/1atvcCoP5-MGm8a4SO4jvd6MV5Ey3Q5wqf7h_0R7Xz18/edit?usp=sharing" target="_blank"title="Project Link" class="folio-item__project-link">Project Link</a>
-                    <div class="folio-item__caption">
-                        <p>As a part of my final project for EGR 104  (Critical Inquiry
-                            for Engineers), my team studied how robotics kits like LEGO
-                             Minstrom affect the mindset of high-school students towards
-                            the field of engineering.
-                            The study sheds light on how many members of the younger generations are 
-                            interested or could become interested in robotics.
-                            It also shows where the schools can focus to further these interests and help students grow.
-                        </p>
-                    </div>
-                </div>
-            </div> <!-- end column -->  
-           
-            <div class="column" data-aos="fade-up">
-                <div class="folio-item">
-                    <div class="folio-item__thumb">
-                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/smart-irrigation-poster.jpg" title="Smart-Irrigation " data-size="1050x700">
-                            <img src="images/portfolio/gallery/smart-irrigation-poster.jpg" 
-                                 srcset="images/portfolio/gallery/smart-irrigation-poster.jpg 1x, images/portfolio/gallery/smart-irrigation-poster.jpg 2x" alt="">
-                        </a>
-                    </div>
-
-                    <div class="folio-item__info">
-                        <div class="folio-item__cat">Smart Irrigation System</div>
-                        <h4 class="folio-item__title">Smart Irrigation System</h4>
-                        <summary>As a part of my final project for EGR 102 (Found of Engineering 
-                            Design Project), my team designed a smart center-pivoted irrigation 
-                            system for farms. The system adjusts the flow of water depending on 
-                            the level of land to reduce water run-off.</summary>
-                        
-                    </div>
-                    <a href="https://docs.google.com/drawings/d/1oPzh93qW_KUHQj4hVbz4Qo6_n6aC1dkkzFZTGCj6AA8/edit?usp=sharing" target="_blank"title="Project Link" class="folio-item__project-link">Project Link</a>
-                    <div class="folio-item__caption">
-                        <p>As a part of my final project for EGR 102 (Found of Engineering 
-                            Design Project), my team designed a smart center-pivoted irrigation 
-                            system for farms. The system adjusts the flow of water depending on 
-                            the level of land to reduce water run-off.</p>
-                    </div>
-                </div>
-            </div> <!-- end column -->     
-
-            <div class="column" data-aos="fade-up">
-                <div class="folio-item">
-                    <div class="folio-item__thumb">
-                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/EWB-International.jpg" title="EWB-International" data-size="1050x700">
-                            <img src="images/portfolio/music-life.jpg" 
-                                 srcset="images/portfolio/EWB-International.jpg 1x, images/portfolio/EWB-International@2x.jpg 2x" alt="">
-                        </a>
-                    </div>
-                    <div class="folio-item__info">
-                        <div class="folio-item__cat"> </div>
-                        <h4 class="folio-item__title"> Engineers Without Borders - international </h4>
-                        <summary>The International Team is currently working to improve access to clean water 
-                            resources for a small village called Naki in rural Eastern Kenya. In Naki, the 
-                            most reliable source of drinking water is filling up buckets in cattle tanks 
-                            (makeshift ponds) that are up to a mile away from the village. 
-                            </summary>
-                    </div>
-                    <a href="https://ewb.engineering.asu.edu/project/international-project/" target="_blank" title="Project Link" class="folio-item__project-link">Project Link</a>
-                    <div class="folio-item__caption">
-                        <p>The International Team is currently working to improve access to clean water 
-                            resources for a small village called Naki in rural Eastern Kenya. In Naki, the 
-                            most reliable source of drinking water is filling up buckets in cattle tanks 
-                            (makeshift ponds) that are up to a mile away from the village. 
-                            Since kids, mostly girls, are responsible for the chore of fetching drinking water, 
-                            many won’t even have the chance to go to school. Additionally, the village is 
-                            an agriculturally-based one, and struggling to have enough water may also mean 
-                            struggling to have enough food. EWB International hopes that providing a more 
-                            reliable access to clean drinking water may not only be good for their health, 
-                            safety, and lifestyle, but also have positive economic and societal impacts as well.</p>
-                    </div>
-                </div>
-
-            </div> <!-- end column -->
-            
-            <div class="column" data-aos="fade-up">
-                <div class="folio-item">
-                    <div class="folio-item__thumb">
-                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/fleet_museum_project.png" title="Corrugated Sheets" data-size="1050x700">
-                            <img src="images/portfolio/corrugated-sheets.jpg" 
-                                 srcset="images/portfolio/gallery/fleet_museum_project.png 1x, images/portfolio/gallery/fleet_museum_project@2x.png 2x" alt="">
-                        </a>
-                    </div>
-                    <div class="folio-item__info">
-                        <div class="folio-item__cat">PROJECT NAME</div>
-                        <h4 class="folio-item__title">Description</h4>
-                    </div>
-                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
-                    <div class="folio-item__caption">
-                        <p>Summary </p>
-                    </div>
-                </div>
-            </div> <!-- end column -->
-
-        </div> <!-- folio-list -->
+        </div> <!-- end row s-portfolio__list -->
 
         <!-- SolidWorks Folio Start-->
-        <div class="row s-porfolio__top">
-            <div class="row">
-
-                 
-
-            </div>
-            
-        </div> <!-- end s-portfolio__top-->
-
-        <div class="row h-add-half-bottom">
+        <div class="row h-add-half-bottom" data-aos="fade-up">
             <h1>Check out some of my SolidWorks projects</h1>
-            <div class="column large-6 tab-12">
+            <div class="column large-6 tab-12" data-aos="fade-up">
                 <div class="video-container">
-                    <iframe title="vimeo-player" src="https://player.vimeo.com/video/597958965?h=f7b9c6153d" width="640" height="360" frameborder="0" allowfullscreen></iframe> 
-                </div>                
+                    <iframe title="vimeo-player" src="https://player.vimeo.com/video/597958965?h=f7b9c6153d" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+                </div>
                 <div class="video-container">
                     <iframe title="vimeo-player" src="https://player.vimeo.com/video/597979066?h=4aefc144c8" width="640" height="360" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
-        
 
-            <div class="column large-6 tab-12">
-
+            <div class="column large-6 tab-12" data-aos="fade-up">
                 <div class="video-container">
-                <iframe title="vimeo-player" src="https://player.vimeo.com/video/597958875?h=3e397628c3" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+                    <iframe title="vimeo-player" src="https://player.vimeo.com/video/597958875?h=3e397628c3" width="640" height="360" frameborder="0" allowfullscreen></iframe>
                 </div>
-
                 <div class="video-container">
-                <iframe title="vimeo-player" src="https://vimeo.com/796474195" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+                    <iframe title="vimeo-player" src="https://vimeo.com/796474195" width="640" height="360" frameborder="0" allowfullscreen></iframe>
                 </div>
-        </div>
-
+            </div>
         </div> <!-- end row -->
     </section> <!-- end s-portfolio -->
-    
-        
-    <!-- gcsp
+
+
+    <!-- publications
     ================================================== -->
-    <section id="GCSP" class="s-services">
+    <section id="Publications" class="s-services">
 
         <div class="row">
             <div class="column large-12">
                 <div class="section-title" data-num="04" data-aos="fade-up">
-                    <h3 class="h6">GCSP</h3>
+                    <h3 class="h6">Publications</h3>
                 </div>
             </div>
-            <div class="column large-6 w-900-stack">
-                <h1 class="display-1" data-aos="fade-up">
-                    GRAND CHALLENGES SCHOLARS PROGRAM                  
-                </h1>
+            <div class="column large-6 w-900-stack" data-aos="fade-up">
+                <h1 class="display-1">Publications</h1>
             </div>
-            <div class="column large-6 w-900-stack">
-                <p class="lead" data-aos="fade-up">
-                    As a student in ASU's chapter of the National Academy of Engineering's 
-                    Grand Challenges Scholars Program (GCSP), I am pursuing a self-curated 
-                    and joy of living-focused path of interdisciplinary, multicultural, 
-                    service-learning, research, and entrepreneurial experiences to fulfill 
-                    the competencies of this selective international program. I am also a 
-                    Student Leader for the program.
-                 <br><a href="https://asu.digication.com/deepit-aroras-gcsp-portfolio/about_me" title="Check out my GCSP" >Check out my GCSP portfolio</a>
-                   
+            <div class="column large-6 w-900-stack" data-aos="fade-up">
+                <p class="lead">
+                    My publications span medical robotics, assistive technologies, soft robotics, embedded systems, and multi-agent learning. Below are selected research papers and patent contributions, with more in progress.
                 </p>
             </div>
         </div>
 
         <div class="row block-large-1-2 block-tab-full s-services__services item-list">
             <div class="column item item-service" data-aos="fade-up">
-                <span class="service-icon service-icon--branding"></span>
-                <h3 class="item-title">Student Leader</h3>
+                <h3 class="item-title">Miniature Magnetic Modular Robot for Thrombectomy</h3>
                 <p>
-                    As one of three Student Leaders in ASU's chapter of the 
-                    National Academy of Engineering Grand Challenges Scholars 
-                    Program (GCSP), I worked alongside the GCSP faculty and staff 
-                    to plan and facilitate social and professional events for GCSP 
-                    students. Essentially, my job was to help build the GCSP 
-                    community and create additional value for all GCSP students 
-                    through internal and external outreach.
+                    <strong>Deepit Arora</strong>, T. Zhang, M. Ghiyasi, N. Gangrade, H. Marvi.<br>
+                    “Miniature Magnetic Modular (M3) Robot for Endovascular Thrombectomy.”<br>
+                    <span class="highlight-conference">International Symposium on Medical Robotics (ISMR),</span> May 2025. (Accepted, Poster)<br>
+                    <a href="#" target="_blank">View Publication</a>
+                </p>
+            </div>
 
+            <div class="column item item-service" data-aos="fade-up">
+                <h3 class="item-title">Thrombectomy Apparatus Patent</h3>
+                <p>
+                    <strong><span class="highlight-conference">U.S. Provisional Patent Application </span> No. 63/766,185</strong><br>
+                    “Thrombectomy Apparatus with Magnetically Expandable Segments.”<br>
+                    Co-inventor: Deepit Arora<br>
+                    <a href="#" target="_blank">View Patent Filing</a>
+                </p>
+            </div>
 
-                </p>
-            </div>
             <div class="column item item-service" data-aos="fade-up">
-                <span class="service-icon service-icon--product-design"></span>
-                <h3 class="item-title">Interdisciplinary Experience</h3>
+                <h3 class="item-title">Robotic System for PTSD and Drug-Resistant Epilepsy</h3>
                 <p>
-                    As a part of my interdisciplinary experience, I  took FSE 150 
-                    during fall 2020. The class was a great introduction to NAE’s 
-                    Grand Challenges Scholars Program. This class by Dr. 
-                    Trowbridge was a very fun and informative experience. It helped me gain 
-                    perspective of how important all themes are and the overlap 
-                    they have. The class had a perfect blend of guest lectures, 
-                    case studies, discussions, and projects. It was these activities 
-                    and lectures that made me select my theme.
-
-                </p>
-            </div>
-            <div class="column item item-service" data-aos="fade-up">
-                <span class="service-icon service-icon--frontend"></span>
-                <h3 class="item-title">Multicultural Experience</h3>
-                <p>
-                Work in progress.
-                </p>
-            </div>
-            <div class="column item item-service" data-aos="fade-up">
-                <span class="service-icon service-icon--research"></span>
-                <h3 class="item-title">Service Learning Experience</h3>
-                <p>
-                    Work in progress.
-                </p>
-            </div>
-            <div class="column item item-service" data-aos="fade-up">
-                <span class="service-icon service-icon--illustration"></span>
-                <h3 class="item-title">Research/Creative Project Experience</h3>
-                <p>
-                    Work in progress.
-                </p>
-            </div>
-            <div class="column item item-service" data-aos="fade-up">
-                <span class="service-icon service-icon--ecommerce"></span>
-                <h3 class="item-title">Entrepreneurship Experience</h3>
-                <p>
-                    Work in progress.
+                    M. Ghiyasi, T. Zhang, <strong>Deepit Arora</strong>, A. Yang, H. Marvi.<br>
+                    “Robotic System for PTSD and Drug-Resistant Epilepsy.”<br>
+                    <span class="highlight-conference">Southwest Robotics Symposium,</span> ASU, Nov 2024. (Poster)<br>
+                    <a href="#" target="_blank">View Poster Abstract</a>
                 </p>
             </div>
         </div>
 
     </section> <!-- end s-services -->
-
 
 
     <!-- contact
@@ -1043,13 +732,14 @@
     <section id="contact" class="s-contact">
 
         <div class="row narrower s-contact__top h-text-center">
-            <div class="column">
+            <div class="column" data-aos="fade-up">
                 <h3 class="h6">Get In Touch</h3>
                 <h1 class="display-1">
-                Let's work together and make something great.
+                    Let's work together and make something great.
                 </h1>
             </div>
-        </div> <!-- s-footer__top -->
+        </div>
+    </section>
 
     <!-- footer
     ================================================== -->
@@ -1058,39 +748,35 @@
 
             <div class="column large-8 medium-12">
                 <div class="row">
-                    <div class="column large-7 tab-12 s-footer__block">
+                    <div class="column large-7 tab-12 s-footer__block" data-aos="fade-up">
                         <h4 class="h6">Where to find me</h4>
-        
                         <p>
-                        <a href="mailto:darora12@asu.edu">darora12@asu.edu</a><br>
-                        <a href="mailto:deepitarora2002@gmail.com">deepitarora2002@gmail.com</a><br>
-                        <a href="tel:+1 480-791-8445">+1 480-791-8445</a><br>
+                            <a href="mailto:darora12@asu.edu">darora12@asu.edu</a><br>
+                            <a href="mailto:deepitarora2002@gmail.com">deepitarora2002@gmail.com</a><br>
+                            <a href="tel:+1 480-791-8445">+1 480-791-8445</a><br>
                         </p>
                     </div>
-        
-                    <div class="column large-5 tab-12 s-footer__block">
-                        <h4 class="h6">Follow me</h4 class="h6">
-        
+
+                    <div class="column large-5 tab-12 s-footer__block" data-aos="fade-up">
+                        <h4 class="h6">Follow me</h4>
                         <ul class="s-footer__list">
-                            <li><a  href="https://www.linkedin.com/in/deepit-arora/" target="_blank">LinkedIn </a></li>
-                            <li><a href="https://asu.joinhandshake.com/users/24560414" target="_blank" >Handshake</a></li>
+                            <li><a href="https://www.linkedin.com/in/deepit-arora/" target="_blank">LinkedIn</a></li>
+                            <li><a href="https://asu.joinhandshake.com/users/24560414" target="_blank">Handshake</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-            <div class="column large-3 medium-1 s-footer__block--end">
-                <a href="https://drive.google.com/drive/folders/1mRwLZZHXLNRz8U1AXXirYURyXgTxKPQO?usp=sharing" target="_blank" class="btn h-full-width">My Resume</a>
-
-                 <div class="ss-copyright">
-               
-                <span>Website Template Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+            <div class="column large-3 medium-1 s-footer__block--end" data-aos="fade-up">
+                <a href="https://drive.google.com/drive/folders/1mRwLZZHXLNRz8U1AXXirYURyXgTxKPQO?usp=sharing" target="_blank" class="btn h-full-width">
+                    My Resume
+                </a>
+                <div class="ss-copyright">
+                    <span>Website Template Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+                </div>
             </div>
 
-            </div>
-            
-
-            <div class="ss-go-top">
+            <div class="ss-go-top" data-aos="fade-up">
                 <a class="smoothscroll" title="Back to Top" href="#top">
                     top
                 </a>
@@ -1098,7 +784,7 @@
 
         </div>
     </footer>
-    
+
 
     <!-- photoswipe background
     ================================================== -->
@@ -1115,9 +801,11 @@
 
             <div class="pswp__ui pswp__ui--hidden">
                 <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
-                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
-                    "Zoom in/out"></button>
+                    <div class="pswp__counter"></div>
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                    <button class="pswp__button pswp__button--share" title="Share"></button>
+                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
                     <div class="pswp__preloader">
                         <div class="pswp__preloader__icn">
                             <div class="pswp__preloader__cut">
@@ -1128,8 +816,9 @@
                 </div>
                 <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
                     <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
-                "Next (arrow right)"></button>
+                </div>
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
                 <div class="pswp__caption">
                     <div class="pswp__caption__center"></div>
                 </div>
